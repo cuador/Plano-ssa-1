@@ -1,13 +1,5 @@
-{
-  "name": "plano-ssa1",
-  "version": "1.0.0",
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "5.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
-  }
-}
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
